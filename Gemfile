@@ -49,7 +49,7 @@ group :test do
   gem "ruby-debug" if RUBY_VERSION < '1.9'
   gem "sqlite3-ruby"
   gem "activerecord"
-  gem "delayed_job", :git => "git://github.com/tobi/delayed_job.git"
+  gem "delayed_job", :git => "git://github.com/pda/delayed_job.git"
   gem "rr"
   gem "mocha"
   gem "redgreen"
