@@ -34,8 +34,8 @@ gem "rack", "1.1.0"
 # gem "bunny"
 
 # = Dependencies for the :dj builder
-# gem "activerecord"
-# gem "sqlite3-ruby"
+gem "activerecord"
+gem "sqlite3-ruby"
 gem "delayed_job", :git => "git://github.com/pda/delayed_job.git"
 # = Dependency for the :resque builder
 # gem "resque"
@@ -64,7 +64,7 @@ group :test do
   gem "webrat"
   gem "shout-bot"
   gem "sinatra-ditties"
-  gem "broach", :git => "git://github.com/Manfred/broach.git"
+  # gem "broach", :git => "git://github.com/Manfred/broach.git"
   gem "nap", :git => "git://github.com/qrush/nap.git"
   gem "bunny"
   gem "webmock"
