@@ -22,7 +22,7 @@ require "integrity"
 Integrity.configure do |c|
   c.database     =  "sqlite3:integrity.db"
   c.directory    =  "builds"
-  c.base_url     =  "http://ci.example.org"
+  c.base_url     = "http://#{ENV['BUSHIDO_DOMAIN']}"
   c.log          =  "integrity.log"
   c.github_token =  "SECRET"
   c.build_all    = true
